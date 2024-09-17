@@ -1,5 +1,5 @@
 {
-  "name": "react-easy-state",
+  "name": "@strbjun/react-easy-state",
   "version": "0.1.0",
   "description": "A very easy state management library for React that also allows actions, middleware, and async along with REST API support.",
   "source": "src/index.ts",
