@@ -1,0 +1,7 @@
+import { IParametersIn, StateResult } from "../types";
+export declare function useRest<TData = unknown, TResult = unknown, TResultData = TData>(params: IParametersIn<TResultData>, method: "GET" | "POST" | "PUT" | "DELETE" | "PATCH", url: string, data?: TData, extract?: string | ((result: TResult) => TResultData)): StateResult<TResultData>;
+export declare function useRestPost<TData = unknown, TResult = unknown, TResultData = TData>(params: IParametersIn<TResultData>, url: string, data: TData, extract?: string | ((result: TResult) => TResultData)): StateResult<TResultData>;
+export declare function useRestGet<TData = unknown, TResult = unknown, TResultData = TData>(params: IParametersIn<TResultData>, url: string, data: TData, extract?: string | ((result: TResult) => TResultData)): StateResult<TResultData>;
+export declare function useRestPut<TData = unknown, TResult = unknown, TResultData = TData>(params: IParametersIn<TResultData>, url: string, data: TData, extract?: string | ((result: TResult) => TResultData)): StateResult<TResultData>;
+export declare function useRestDelete<TData = unknown, TResult = unknown, TResultData = TData>(params: IParametersIn<TResultData>, url: string, data: TData, extract?: string | ((result: TResult) => TResultData)): StateResult<TResultData>;
+export declare function useRestPatch<TData = unknown, TResult = unknown, TResultData = TData>(params: IParametersIn<TResultData>, url: string, data: TData, extract?: string | ((result: TResult) => TResultData)): StateResult<TResultData>;
