@@ -1,0 +1,45 @@
+{
+  "name": "react-easy-state",
+  "version": "0.1.0",
+  "description": "A very easy state management library for React that also allows actions, middleware, and async along with REST API support.",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "state",
+    "management",
+    "easy",
+    "actions",
+    "middleware",
+    "async",
+    "REST",
+    "API"
+  ],
+  "author": "Chris Brine",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisbrine/react-easy-state.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisbrine/react-easy-state/issues"
+  },
+  "homepage": "https://github.com/chrisbrine/react-easy-state#readme",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "@types/node": "^22.5.2",
+    "@types/react": "^18.3.5",
+    "eslint": "^9.10.0",
+    "eslint-plugin-react": "^7.36.1",
+    "globals": "^15.9.0",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.6.0"
+  }
+}
