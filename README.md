@@ -22,7 +22,7 @@ StoreSetting can be three different values:
   initialState: "", /* The initial state. Must match the type used in the T for useStore. Can be a function or promise or a function that returns a promise. */
   fillerValue?: "", /* This would be the filler value for the state to use if the initialState is a promise or returned a promise. */
   persistent?: false, /* A boolean value for whether it should be stored in the localStorage as well or not. */
-  actions?: [], /* A list of actions for the store. They are a ([any arguments]) => T/state format for when in here, but the actions then returned will be in a ([any arguments]) => void format */
+  actions?: {}, /* A list of actions for the store. They are a ([any arguments]) => T/state format for when in here, but the actions then returned will be in a ([any arguments]) => void format and uses key value pairs for the actions */
   middleware?: [], /* A bunch of middleware for modifying the state as it gets set. It just takes in the current state, then returns it. It'll run in the order that it is added here. */
 }
 ```
